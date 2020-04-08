@@ -1,5 +1,10 @@
 # flask-firestore
 Flask web-application using Google Cloud service
+
+ [Crash guide for Flask Firestore](https://medium.com/google-cloud/building-a-flask-python-crud-api-with-cloud-firestore-firebase-and-deploying-on-cloud-run-29a10c502877)
+ 
+ [Firestore quickstart](https://cloud.google.com/firestore/docs/quickstart-servers)
+ 
 ### Flask
 
 Terminal
