@@ -1,13 +1,8 @@
 from flask import Flask, request, jsonify
-from google.cloud import firestore
 from .extensions import migrate, db, jwt, api, cors
 from .user.views import user_blueprint
 
-GOOGLE_APPLICATION_CREDENTIALS = "/key.json"
-
-db = firestore.Client()
-
-user_ref = db.collection(u'users')
+GOOGLE_APPLICATION_CREDENTIALS = "key.json"
 
 # def register_extensions(app):
 #     bcrypt.init_app(app)
